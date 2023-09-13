@@ -50,8 +50,8 @@ export function createMarkdownTableForBenchmarkResults(input: BenchmarkResult[])
 export function createMarkdownForBenchmarkResults(input: BenchmarkResult[]) {
     return `## Benchmarks 
 
-* CPU:  \`${cpus().length} \`
-* RAM:  \`${(totalmem() / (1024 ** 3)).toFixed(1)}GB \`
+* CPUs:  \`${cpus().length}\`
+* RAM:  \`${(totalmem() / (1024 ** 3)).toFixed(1)}GB\`
 * Node: \`${process.version}\`
 * Date:  \`${new Date()} \`
 * Method: \`autocannon -c 100 -d 40 -p 10 localhost:3000\` (two rounds; one to warm-up, one to measure)

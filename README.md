@@ -40,10 +40,10 @@ routup-benchmarks stats
 
 ## Benchmarks 
 
-* CPU:  `24 `
-* RAM:  `63.9GB `
+* CPUs:  `24`
+* RAM:  `63.9GB`
 * Node: `v18.16.0`
-* Date:  `Wed Sep 13 2023 15:08:07 GMT+0200 (Mitteleuropäische Sommerzeit) `
+* Date:  `Wed Sep 13 2023 15:11:58 GMT+0200 (Mitteleuropäische Sommerzeit) `
 * Method: `autocannon -c 100 -d 40 -p 10 localhost:3000` (two rounds; one to warm-up, one to measure)
 
 | Package | Requests/s | Latency (ms) | Throughput/MB |
