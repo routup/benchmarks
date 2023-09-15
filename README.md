@@ -14,12 +14,17 @@
 
 ## Usage
 
+```shell
+git clone https://github.com/routup/benchmarks
+cd benchmarks
+```
+
 ## Generate
 
 Generate results
 
 ```shell
-routup-benchmarks generate <pkg1> <pkg2> <...>
+npm run cli generate
 ```
 
 ### Compare
@@ -27,7 +32,7 @@ routup-benchmarks generate <pkg1> <pkg2> <...>
 Compare two generated results
 
 ```shell
-routup-benchmarks compare <pkg1> <pkg2>
+npm run cli compare <pkg1> <pkg2>
 ```
 
 ### Stats
@@ -35,7 +40,7 @@ routup-benchmarks compare <pkg1> <pkg2>
 Save all generated results to README.md
 
 ```shell
-routup-benchmarks stats
+npm run cli stats
 ```
 
 ## Benchmarks 
