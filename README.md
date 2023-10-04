@@ -47,8 +47,8 @@ npm run cli stats
 
 * CPUs:  `24`
 * RAM:  `63.9GB`
-* Node: `v18.16.0`
-* Date:  `Wed Sep 13 2023 15:11:58 GMT+0200 (Mitteleuropäische Sommerzeit) `
+* Node: `v18.18.0`
+* Date:  `Wed Oct 04 2023 19:39:17 GMT+0200 (Mitteleuropäische Sommerzeit) `
 * Method: `autocannon -c 100 -d 40 -p 10 localhost:3000` (two rounds; one to warm-up, one to measure)
 
 | Package | Requests/s | Latency (ms) | Throughput/MB |
@@ -56,6 +56,6 @@ npm run cli stats
 | http    |    61062   |        15.87 |         10.89 |
 | fastify |    59679   |        16.26 |         10.70 |
 | koa     |    45763   |        21.35 |          8.16 |
-| routup  |    43881   |        22.29 |          8.87 |
+| routup  |    44588   |        21.91 |          9.02 |
 | hapi    |    41374   |        23.67 |          7.38 |
 | express |    13376   |        74.18 |          2.39 |
