@@ -21,7 +21,7 @@
     "fastify": "^4.23.1",
     "koa": "^2.14.2",
     "markdown-table": "^2.0.0",
-    "routup": "^3.0.0"
+    "routup": "^3.1.0"
   },
   "devDependencies": {
     "@tada5hi/eslint-config-typescript": "^1.2.3",
