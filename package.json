@@ -24,7 +24,7 @@
     "routup": "^3.1.0"
   },
   "devDependencies": {
-    "@tada5hi/eslint-config-typescript": "^1.2.6",
+    "@tada5hi/eslint-config-typescript": "^1.2.7",
     "@tada5hi/tsconfig": "^0.5.0",
     "@types/autocannon": "^7.12.2",
     "ts-node": "^10.9.1",
